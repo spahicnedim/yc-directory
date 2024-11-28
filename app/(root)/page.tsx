@@ -1,4 +1,8 @@
 import SearchForm from "../../components/SearchForm";
+import StartUpcard, { StartupTypeCard } from "@/components/StartUpcard";
+// import { client } from "@/sanity/lib/client";
+import { STARTUPS_QUERY } from "@/sanity/lib/queries";
+import { sanityFetch, SanityLive } from "@/sanity/lib/live";
 
 export default async function Home({
   searchParams,
@@ -6,19 +10,9 @@ export default async function Home({
   searchParams: Promise<{ query?: string }>;
 }) {
   const query = (await searchParams)?.query;
-  const posts = [
-    {
-      _createdAt: "Yesterday",
-      views: 55,
-      author: { _id: 1 },
-      _id: 1,
-      description: "This is a description",
-      image:
-        "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vectorstock.com%2Froyalty-free-vector%2Fbusiness-people-launching-new-startup-project-vector-21386653&psig=AOvVaw2lw448Ro9riWqyvqAM834G&ust=1732900658528000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLCo3JPE_4kDFQAAAAAdAAAAABAJ",
-      category: "Robots",
-      title: "We Robots",
-    },
-  ];
+  // const posts = await client.fetch(STARTUPS_QUERY);
+  const { data: posts } = await sanityFetch({ query: STARTUPS_QUERY });
+
   return (
     <>
       <section className="pink_container">
@@ -37,14 +31,16 @@ export default async function Home({
         </p>
         <ul className="mt-7 card_grid">
           {posts?.length > 0 ? (
-            posts.map((posts: StartUpCardType, index: number) => (
-              <StartUpCard />
+            posts.map((post: StartupTypeCard) => (
+              <StartUpcard key={post._id} post={post} />
             ))
           ) : (
             <p className="no-results">No startups found</p>
           )}
         </ul>
       </section>
+
+      <SanityLive />
     </>
   );
 }
