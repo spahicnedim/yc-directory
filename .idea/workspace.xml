@@ -4,18 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4559216-6ce5-47f5-93f3-f5ffea25e814" name="Changes" comment="added sanity and features of it">
-      <change afterPath="$PROJECT_DIR$/app/(root)/startup/[id]/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Ping.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/View.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sanity/lib/write-client.ts" afterDir="false" />
+    <list default="true" id="a4559216-6ce5-47f5-93f3-f5ffea25e814" name="Changes" comment="startup details and ssr rendering">
+      <change afterPath="$PROJECT_DIR$/app/(root)/startup/create/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/StartupForm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/validation.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/next-auth.d.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/(root)/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sanity/env.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sanity/env.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sanity/lib/client.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sanity/lib/client.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth.ts" beforeDir="false" afterPath="$PROJECT_DIR$/auth.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sanity/lib/queries.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sanity/lib/queries.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,21 +42,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\spahi\\OneDrive\\Desktop\\yc-directory\\node_modules\\prettier&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\spahi\\OneDrive\\Desktop\\yc-directory\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\spahi\\OneDrive\\Desktop\\yc-directory\\node_modules\\prettier",
+    "settings.editor.selected.configurable": "preferences.sourceCode.HTML",
+    "ts.external.directory.path": "C:\\Users\\spahi\\OneDrive\\Desktop\\yc-directory\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -90,7 +87,8 @@
       <workItem from="1732813392580" duration="605000" />
       <workItem from="1732814014793" duration="599000" />
       <workItem from="1732814643635" duration="6524000" />
-      <workItem from="1732822804254" duration="16231000" />
+      <workItem from="1732822804254" duration="17071000" />
+      <workItem from="1732974343193" duration="6429000" />
     </task>
     <task id="LOCAL-00001" summary="added sanity and features of it">
       <option name="closed" value="true" />
@@ -100,7 +98,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732828156957</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="startup details and ssr rendering">
+      <option name="closed" value="true" />
+      <created>1732914466679</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1732914466679</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,6 +125,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added sanity and features of it" />
-    <option name="LAST_COMMIT_MESSAGE" value="added sanity and features of it" />
+    <MESSAGE value="startup details and ssr rendering" />
+    <option name="LAST_COMMIT_MESSAGE" value="startup details and ssr rendering" />
   </component>
 </project>
