@@ -4,26 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4559216-6ce5-47f5-93f3-f5ffea25e814" name="Changes" comment="create startup">
-      <change afterPath="$PROJECT_DIR$/app/(root)/user/[id]/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/UserStartups.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/actions.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sanity/schemaTypes/playlist.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(root)/startup/[id]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/startup/[id]/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Navbar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/StartUpcard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/StartUpcard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/StartupForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/StartupForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utils.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sanity/extract.json" beforeDir="false" afterPath="$PROJECT_DIR$/sanity/extract.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sanity/lib/queries.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sanity/lib/queries.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sanity/schemaTypes/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sanity/schemaTypes/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sanity/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sanity/types.ts" afterDir="false" />
-    </list>
+    <list default="true" id="a4559216-6ce5-47f5-93f3-f5ffea25e814" name="Changes" comment="create startup" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -98,7 +79,7 @@
       <workItem from="1732814643635" duration="6524000" />
       <workItem from="1732822804254" duration="17071000" />
       <workItem from="1732974343193" duration="6837000" />
-      <workItem from="1733078491474" duration="9949000" />
+      <workItem from="1733078491474" duration="10288000" />
     </task>
     <task id="LOCAL-00001" summary="added sanity and features of it">
       <option name="closed" value="true" />
